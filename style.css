@@ -40,27 +40,39 @@ a:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(11, 48, 117);
 }
+img {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 .container {
     border: 2px solid black;
     margin-top: 3%;
-    padding: 5%;
+    padding: 0%;
     background-color: cornflowerblue;
     border-radius: 30px;
 }
 
 .container > h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-family: monospace;
-     color: rgb(255, 255, 255);
+    color: rgb(11, 48, 117);
+}
+.container > h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 footer {
     background-color: cornflowerblue;
-    position: fixed;
     bottom: 0px;
     width: 100%;
     border: 2px solid black;
+    margin-top: 25px;
+    
 }
 
 footer > p {
